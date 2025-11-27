@@ -11,5 +11,5 @@ if(MSVC)
     target_compile_options(CarManiaRush PRIVATE /W4)
 else()
     target_compile_options(CarManiaRush PRIVATE -Wall -Wextra)
-    target_link_libraries(CarManiaRush m)  # Link math library for Linux
+    target_link_libraries(CarManiaRush m)  # Link math library for linux (Which is what im using for ts atm)
 endif()

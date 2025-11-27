@@ -9,8 +9,8 @@ void GameRenderer::beginFrame() {
 }
 
 void GameRenderer::renderTrack(const TrackData& track) {
-    // Simple ASCII track rendering
-    // In real implementation, use graphics library
+    // Simple ASCII track render
+    // This is just an example use graphics library in a real implementation
     std::cout << "Track rendered" << std::endl;
 }
 
